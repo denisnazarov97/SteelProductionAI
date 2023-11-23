@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SteelProductionAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1B2A4B</item>
+        <item name="colorPrimaryDark">#121830</item>
+        <item name="colorAccent">#0A84FF</item>
+    </style>
+
+    <style name="Lib.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
+        <item name="colorPrimary">@color/white</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="colorOnPrimary">@color/colorBimSecondary</item>
+        <item name="itemPaddingBottom">8dp</item>
+        <item name="itemTextAppearanceActive">?textMedium12</item>
+        <item name="itemTextAppearanceInactive">?textMedium12</item>
+    </style>
+
+    <style name="Theme.SteelProductionAI" parent="Base.Theme.SteelProductionAI" />
+
+    <attr name="textMedium12" format="reference" />
+</resources>

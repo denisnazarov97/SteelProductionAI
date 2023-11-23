@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_application_color">#232A22</color>
+    <color name="colorAccentWarehouse">#0A84FF</color>
+    <color name="background_internet_bad_color">#090909</color>
+    <color name="colorBimSecondary">#1B2A4B</color>
+</resources>

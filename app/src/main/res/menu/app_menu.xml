@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/projectsFragment"
+        android:title="@string/prediction_text" />
+    <item
+        android:id="@+id/elementsFragmentWarehouse"
+        android:title="Данные с датчиков" />
+    <item
+        android:id="@+id/elementsFragmentConstruction"
+        android:title="Логи" />
+    <item
+        android:id="@+id/elementsFragmentTransit"
+        android:title="Профиль" />
+</menu>

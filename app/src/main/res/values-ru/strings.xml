@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Template Site Group</string>
+    <string name="welcome_text">Искусственный интеллект для сталеплавильного производства</string>
+    <string name="sign_up_button_text">Регистрация</string>
+    <string name="log_in_button_text">Вход</string>
+    <string name="text_develop_group">Template Site Group</string>
+</resources>

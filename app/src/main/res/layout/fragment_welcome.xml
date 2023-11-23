@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_application_color"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/titleTextGl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.198" />
+
+    <TextView
+        android:id="@+id/titleAText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:fontFamily="@font/sf_ui_display_heavy"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextGl" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        style="@style/Lib.Button.Accent.LightGreen"
+        android:layout_width="0dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/sf_ui_display_semibold"
+        android:text="@string/sign_up_button_text"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleAText" />
+
+    <Button
+        android:id="@+id/signInButton"
+        style="@style/Lib.Button.Accent.LightGreen"
+        android:layout_width="0dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sf_ui_display_semibold"
+        android:text="@string/log_in_button_text"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signUpButton" />
+
+    <TextView
+        android:id="@+id/textAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_ui_display_bold"
+        android:text="@string/text_develop_group"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
